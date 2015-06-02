@@ -77,26 +77,26 @@
 	
     <!-- Define app splash screen for each platform. -->
 	
-	
+	<gap:splash src="splash.png"/>
 	<!-- iPhone and iPod touch -->
-<gap:splash src="Default.png" gap:platform="ios" width="320" height="480" />
-<gap:splash src="Default@2x.png" gap:platform="ios" width="640" height="960" />
+<gap:splash src="www/res/screen/ios/Default.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="www/res/screen/ios/Default@2x.png" gap:platform="ios" width="640" height="960" />
 
 <!-- iPhone 5 / iPod Touch (5th Generation) -->
-<gap:splash src="Default-568h@2x.png" gap:platform="ios" width="640" height="1136" />
+<gap:splash src="www/res/screen/ios/Default-568h@2x.png" gap:platform="ios" width="640" height="1136" />
 
 <!-- iPad -->
-<gap:splash src="Default-Portrait.png" gap:platform="ios" width="768" height="1024" />
+<gap:splash src="www/res/screen/ios/Default-Portrait.png" gap:platform="ios" width="768" height="1024" />
 
 <!-- Retina iPad -->
-<gap:splash src="Default-Portrait@2x.png" gap:platform="ios" width="1536" height="2048" />
+<gap:splash src="www/res/screen/ios/Default-Portrait@2x.png" gap:platform="ios" width="1536" height="2048" />
 
-	<gap:splash src="splash.png"/>
 	
-<gap:splash src="ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
-<gap:splash src="mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
-<gap:splash src="hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
-<gap:splash src="xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+	
+<gap:splash src="www/res/screen/android/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+<gap:splash src="www/res/screen/android/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+<gap:splash src="www/res/screen/android/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+<gap:splash src="www/res/screen/android/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
 	
 	
 	
